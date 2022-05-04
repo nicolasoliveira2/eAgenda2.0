@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telas.WinApp", "eAgenda2.0\Telas.WinApp.csproj", "{16BD8329-4852-4939-84CC-1E6C56C45413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Apresentacao", "1-Apresentacao", "{C7BB2D70-FA73-4FE7-AF69-84A97C00D1E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Dominio", "2-Dominio", "{EED2C74B-75E5-4272-9807-A931BABC9F5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{FAF6570D-36DD-4DE2-BCD2-369588ED5E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAgenda.Dominio", "eAgenda.Dominio\eAgenda.Dominio.csproj", "{B570BD3D-8FA4-4447-AF08-A0F6DA1B63BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16BD8329-4852-4939-84CC-1E6C56C45413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BD8329-4852-4939-84CC-1E6C56C45413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BD8329-4852-4939-84CC-1E6C56C45413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BD8329-4852-4939-84CC-1E6C56C45413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B570BD3D-8FA4-4447-AF08-A0F6DA1B63BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B570BD3D-8FA4-4447-AF08-A0F6DA1B63BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B570BD3D-8FA4-4447-AF08-A0F6DA1B63BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B570BD3D-8FA4-4447-AF08-A0F6DA1B63BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16BD8329-4852-4939-84CC-1E6C56C45413} = {C7BB2D70-FA73-4FE7-AF69-84A97C00D1E4}
+		{B570BD3D-8FA4-4447-AF08-A0F6DA1B63BC} = {EED2C74B-75E5-4272-9807-A931BABC9F5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0883889A-525B-4D6B-8037-19832BA19748}
+	EndGlobalSection
+EndGlobal
